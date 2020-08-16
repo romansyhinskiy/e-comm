@@ -1,0 +1,151 @@
+$blue: linear-gradient(90deg, #346CC0 0%, #6487E0 100%);
+$black: #292E3B;
+
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("../../fonts/OpenSans-Bold.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "OpenSans-Semi";
+  src: url("../fonts/OpenSans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat-Black";
+  src: url("../fonts/Montserrat-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+.whiteRegular16{
+  font: 16px OpenSans-Regular, sans-serif;
+  font-style: normal;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+.whiteSemi16{
+  font: 16px OpenSans-Semi, sans-serif;
+  font-style: normal;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+.whiteRegular32{
+  font: 32px OpenSans-Regular, sans-serif;
+  font-style: normal;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+.blueBold48{
+  font: 48px Montserrat-Black, sans-serif;
+  line-height: 59px;
+  text-transform: uppercase;
+  background: $blue;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blackRegular20{
+  font: 20px OpenSans-Regular, sans-serif;
+  line-height: 27px;
+  color: $black;
+}
+.whiteRegular20{
+  font: 20px OpenSans-Regular, sans-serif;
+  line-height: 27px;
+  color: #fff;
+}
+.blackRegular36{
+  font: 36px Montserrat-Black, sans-serif;
+  line-height: 44px;
+  font-weight: 900;
+  color: $black;
+}
+.whiteRegular36{
+  font: 36px Montserrat-Black, sans-serif;
+  line-height: 44px;
+  font-weight: 900;
+  color: #fff;
+}
+.contact-link{
+  font: 20px OpenSans-Bold, sans-serif;
+  line-height: 27px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  background: $blue;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.package-title-font {
+  font: 24px Montserrat-Black;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 29px;
+  color: #5F6B87;
+}
+.whiteRegular12{
+  font: 12px OpenSans-Regular, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+.whiteRegular14{
+  font: 14px OpenSans-Regular, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+.whiteBold14{
+  font: 14px Montserrat-Black, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+.whiteBold18{
+  font: 18px Montserrat-Black, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+.whiteBold24{
+  font: 24px Montserrat-Black, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 29px;
+  text-align: right;
+  color: #FFFFFF;
+}
+.blackRegular14{
+  font: 14px OpenSans-Semi, sans-serif;
+  font-style: normal;
+  line-height: 19px;
+  color: #292E3B;
+}
+.greySemi14{
+  font: 14px OpenSans-Semi, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19px;
+  text-decoration-line: line-through;
+  color: #828282;
+}
+.greyRegular12{
+  font: 12px OpenSans-Regular, sans-serif;
+  line-height: 16px;
+  color: #828282;
+}
+.greyRegular11{
+  font: 11px OpenSans-Regular, sans-serif;
+  line-height: 16px;
+  color: #828282;
+}
