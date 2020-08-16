@@ -376,11 +376,11 @@ footer{
   z-index: 99;
 }
 .resp-proposal{
-  margin-top: 36px;
+  margin: 36px 0;
 }
-.resp-proposal, .resp-includes{
-  height: 110%;
-}
+// .resp-proposal, .resp-includes{
+//   height: 110%;
+// }
 .white{
   background: #fff
 }
@@ -392,7 +392,7 @@ footer{
   outline: none
 }
 .act-wid{
-  width: 55%;
+  width: 63%;
   padding-left: 20px;
 }
 .nav-btn{
