@@ -1,9 +1,27 @@
 @media screen and (min-width: 1600px) {
   .header-actions {
-    width: 75%;
+    width: 100%;
   }
-  .b2b {
+  body .b2b {
     min-height: 1080px;
+    background: url("../images/home.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  body .b2b-aligment{
+    min-height: 1080px;
+  }
+}
+
+@media screen and (min-width: 1400px){
+  .b2b {
+    min-height: 850px;
+    background: url("../images/home.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .b2b-aligment{
+    min-height: 850px;
   }
 }
 
@@ -22,8 +40,14 @@
     height: 148px;
   }
 }
+@media screen and (min-width: 1100px) and (max-width: 1199px){
+  .header-actions {
+    width: 100%;
+}
+}
 
 @media screen and (max-width: 1199px){
+
   .tech-item img{
     max-width: 100%;
   }
@@ -50,13 +74,22 @@
 }
 
 @media screen and (max-width: 991px){
+  .b2b-aligment{
+    min-height: 927px;
+  }
+  .resp-proposal{
+    height: auto;
+  }
+  .resp-includes{
+    height: 100%;
+  }
   .slider{
     display: flex;
     overflow: auto;
-    padding-left: 60px;
+    padding-left: 38px;
   }
   .last-slider{
-    padding-right: 50px;
+    padding-right: 38px;
   }
   .packages-item{
     width: 303px;
@@ -194,6 +227,24 @@
 }
 
 @media screen and (max-width: 575px) {
+  .b2b-aligment {
+    min-height: 521px;
+}
+  .pack:before {
+    content: "";
+    background: url(../images/pack.png);
+    position: absolute;
+    left: -17px;
+    top: -6px;
+    width: 36px;
+    background-size: contain;
+    height: 24px;
+    z-index: -1;
+}
+
+  .resp-actions{
+    padding: 20px 0;
+  }
   .b2b .whiteRegular32 {
     font: 16px OpenSans-Regular, sans-serif;
     font-style: normal;
@@ -231,11 +282,23 @@
     margin-top: 35px;
   }
   .placement-btn {
-    margin-top: 59px;
+    margin: 59px auto 0;
+  }
+  .vendor-width{
+    margin: 150px auto 75px;
+  }
+  .abs-img-wid{
+    width: 304px;
+  }
+  .abs-img-wid img{
+    max-width: 100%;
   }
   .text-wid {
     width: 75%;
   }
+  .intergration-text {
+    left: 0;
+}
   .tech-item img {
     max-width: 100%;
     height: 60px;
@@ -245,6 +308,60 @@
   .tech-item {
     padding: 0;
   }
+  .integration .whiteRegular36 {
+    font: 18px Montserrat-Black,sans-serif;
+    line-height: 22px;
+    font-weight: 900;
+}
+.integration .whiteRegular20 {
+  font: 14px OpenSans-Regular,sans-serif;
+  line-height: 19px;
+}
+.intergration-text{
+  width: auto;
+}
+.intergration-text p{
+  width: 270px;
+  text-align: center;
+  margin: 0 auto;
+}
+.integration {
+  min-height: 351px;
+}
+.api.mt-150 {
+  margin-top: 100px;
+}
+.marketplaces .w-47 .blackRegular20 {
+  width: 100%;
+}
+.resp-carousel-text .blackRegular36{
+  font: 18px Montserrat-Black,sans-serif;
+  line-height: 22px;
+  width: 200px;
+    margin: 0 auto;
+}
+.resp-carousel-text .packages-width {
+  width: auto;
+}
+.resp-carousel-text .blackRegular20 {
+  font: 14px OpenSans-Regular,sans-serif;
+  line-height: 19px;
+}
+.resp-carousel-text .contact-link {
+  font: 14px OpenSans-Bold,sans-serif;
+  line-height: 19px;
+}
+.crm{
+  width: 208px;
+    text-align: center;
+    margin: 0 auto;
+}
+.crm::before {
+  left: -10px;
+  top: -10px;
+  width: 36px;
+  height: 35px;
+}
   .cms{
     font: 18px Montserrat-Black, sans-serif;
     line-height: 22px;
@@ -356,6 +473,17 @@
   .api-width{
     width: fit-content;
   }
+  .linkPosition{
+    margin: 70px auto 0;
+  }
+  .openProposal{
+    width: 100%;
+  }
+  .absolute-img {
+    position: absolute;
+    top: -451%;
+    left: -33%;
+}
   .api-api::before {
     left: -23px;
     top: -13px;
@@ -384,9 +512,12 @@
     text-align: center;
     margin: 0 auto;
   }
-
+  .act-wid{
+    width: 100%;
+  }
   footer {
     padding: 20px 0;
+    overflow: hidden;
   }
   footer .whiteRegular36 {
     font: 18px Montserrat-Black,sans-serif;
@@ -406,4 +537,25 @@
   .contact-item{
     margin-bottom: 20px;
   }
+}
+@media screen and (max-width: 359px){
+  .img-size {
+    width: 300px;
+    height: 160px;
+}
+.delivery-item {
+  width: 72px;
+}
+.delivery .w-41 h3 {
+  width: 273px;
+}
+.marketplaces .blackRegular36 {
+  width: 54%;
+}
+.packages-item {
+  width: 264px;
+}
+.action {
+  margin: 15px 0;
+}
 }

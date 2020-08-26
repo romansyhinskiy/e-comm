@@ -16,6 +16,11 @@ $blue: linear-gradient(90deg, #346CC0 0%, #6487E0 100%);
   background-size: cover;
   z-index: 0;
 }
+.b2b-aligment{
+  position: relative;
+    max-width: 960px;
+    min-height: 768px;
+}
 .header{
   padding-top: 20px;
 }
@@ -378,9 +383,6 @@ footer{
 .resp-proposal{
   margin: 36px 0;
 }
-// .resp-proposal, .resp-includes{
-//   height: 110%;
-// }
 .white{
   background: #fff
 }
@@ -403,4 +405,20 @@ text-align: center;
 background: linear-gradient(90deg,#346cc0,#6487e0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.overflowed{
+  overflow: hidden;
+}
+.pack{
+  position: relative;
+}
+.pack::before{
+  content: "";
+  background: url(../images/pack.png);
+  position: absolute;
+  left: 50px;
+  top: -9px;
+  width: 62px;
+  height: 43px;
+  z-index: -1;
 }

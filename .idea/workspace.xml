@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31382355-95c9-4434-858e-76d37d770e8e" name="Default" comment="">
+    <list default="true" id="31382355-95c9-4434-858e-76d37d770e8e" name="Default" comment="sec commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/pages/_components.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/_components.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/pages/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/_index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/pages/_responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/_responsive.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,11 +63,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -79,8 +79,9 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -99,6 +100,11 @@
       <workItem from="1597576680036" duration="1133000" />
       <workItem from="1597578707638" duration="359000" />
       <workItem from="1597602119519" duration="679000" />
+      <workItem from="1597607055111" duration="294000" />
+      <workItem from="1597823133782" duration="25000" />
+      <workItem from="1597867882381" duration="504000" />
+      <workItem from="1597868735120" duration="366000" />
+      <workItem from="1598452730737" duration="207000" />
     </task>
     <task id="LOCAL-00001" summary="sec commit">
       <created>1597602180731</created>
@@ -107,11 +113,18 @@
       <option name="project" value="LOCAL" />
       <updated>1597602180731</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="sec commit">
+      <created>1597607111274</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597607111274</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sec commit" />
@@ -122,21 +135,21 @@
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state x="184" y="101" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.829@0.23.1440.829" timestamp="1597577111319" />
-    <state x="328" y="44" key="CommitChangelistDialog2" timestamp="1597602180142">
+    <state x="328" y="44" key="CommitChangelistDialog2" timestamp="1597607110744">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
-    <state x="328" y="44" key="CommitChangelistDialog2/0.23.1440.829@0.23.1440.829" timestamp="1597602180142" />
-    <state x="229" y="76" key="SettingsEditor" timestamp="1597576903128">
+    <state x="328" y="44" key="CommitChangelistDialog2/0.23.1440.829@0.23.1440.829" timestamp="1597607110744" />
+    <state x="229" y="76" key="SettingsEditor" timestamp="1597869421466">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
-    <state x="229" y="76" key="SettingsEditor/0.23.1440.829@0.23.1440.829" timestamp="1597576903128" />
-    <state x="320" y="179" key="Vcs.Push.Dialog.v2" timestamp="1597602190384">
+    <state x="229" y="76" key="SettingsEditor/0.23.1440.829@0.23.1440.829" timestamp="1597869421466" />
+    <state x="320" y="179" key="Vcs.Push.Dialog.v2" timestamp="1597607114600">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
-    <state x="320" y="179" key="Vcs.Push.Dialog.v2/0.23.1440.829@0.23.1440.829" timestamp="1597602190384" />
-    <state x="387" y="272" key="com.intellij.ide.util.TipDialog" timestamp="1597607056024">
+    <state x="320" y="179" key="Vcs.Push.Dialog.v2/0.23.1440.829@0.23.1440.829" timestamp="1597607114600" />
+    <state x="387" y="272" key="com.intellij.ide.util.TipDialog" timestamp="1597823139072">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
-    <state x="387" y="272" key="com.intellij.ide.util.TipDialog/0.23.1440.829@0.23.1440.829" timestamp="1597607056024" />
+    <state x="387" y="272" key="com.intellij.ide.util.TipDialog/0.23.1440.829@0.23.1440.829" timestamp="1597823139072" />
   </component>
 </project>
