@@ -227,6 +227,18 @@
 }
 
 @media screen and (max-width: 575px) {
+  .delivery .w-41 h3 {
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+  }
+  .themeDesign img {
+    width: 325px;
+    height: 160px;
+  }
+  .integration.mt-112{
+    margin-top: 45px;
+  }
   .b2b-aligment {
     min-height: 521px;
 }
@@ -537,7 +549,26 @@
   .contact-item{
     margin-bottom: 20px;
   }
+  //.slider::-webkit-scrollbar {
+  //  -webkit-appearance: none;
+  //}
+  //
+  //.slider::-webkit-scrollbar:vertical {
+  //  width: 11px;
+  //}
+  //
+  //.slider::-webkit-scrollbar:horizontal {
+  //  height: 11px;
+  //}
+  //
+  //.slider::-webkit-scrollbar-thumb {
+  //  border-radius: 8px;
+  //  border: 2px solid white; /* should match background, can't be transparent */
+  //  background-color: rgba(0, 0, 0, .5);
+  //}
+
 }
+
 @media screen and (max-width: 359px){
   .img-size {
     width: 300px;
